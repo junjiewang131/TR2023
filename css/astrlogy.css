@@ -1,0 +1,202 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.s {
+    width: 900px;
+    margin: 0 auto;
+}
+.header {
+    height: 70px;
+    border-bottom: 2px solid white;
+}  
+
+.logo {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+.logo img{
+    width: 85px;
+    height: 85px;
+    padding-left: 40px;
+}
+.nav {
+    float: left;
+    margin-left: 60px;
+}
+
+.nav ul li {
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    display: block;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+}
+
+.nav ul li a:hover {
+    color: gray;
+}
+
+.usericon {
+    display: flex;
+    float: right;
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.worldicon {
+    display: flex;
+    float: right;
+    width: 45px;
+    height: 45px;
+    margin-top: 11px;
+    margin-right: 10px;
+}
+
+.banner{
+    height: 585px;
+    background-image: url(../uploads/astrology.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.welcome {
+    margin-top: 20px;
+    height: 250px;
+}
+
+.welcome h4 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "AbhayaLibre";
+}
+
+.welcome .definition {
+    text-align: center;
+    font-size: 25px;
+}
+
+.box {
+    margin-top: 50px;
+}
+.box .boxpicture {
+    float: left;
+    height: 675px;
+    width: 250px;
+}
+
+.box .zodiacsigns {
+    margin-left: 30px;
+    height: 200px;
+    width: 200px;
+    background-image:url(../uploads/taurus1.png);
+    background-repeat: no-repeat;
+}
+.box .planets {
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    background-image: url(../uploads/mars1.png);
+    background-repeat: no-repeat;
+}
+.box .houses {
+    margin-left: 65px;
+    margin-top: 40px;
+    height: 130px;
+    width: 130px;
+    background-image: url(../uploads/n1.png);
+    background-repeat: no-repeat;
+}
+
+.box .box-bd p{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 35px;
+    margin-bottom: 40px;
+}
+
+.sph {
+    margin-top: 100px;
+    height: 1500px;
+}
+
+.sph .signos {
+    height: 400px;
+}
+
+.sph .planetas {
+    height: 400px;
+}
+
+.sph .casas {
+    height: 400px;
+}
+
+.sph .signos h4 {
+    text-align: center;
+    font-size: 30px;
+}
+.sph .planetas h4 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.sph .casas h4 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.sph table {
+    margin-top: 15px;
+    margin-left: 300px;
+}
+.sph table td {
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+
+.footer {
+    height: 250px;
+    margin-top: 83px;
+    background-color: #D9D9D9;
+    text-align: center;
+}
+.footer dl {
+    display: inline-block;
+    font-size: 22px;
+    color:black;
+    padding-top: 70px;
+    padding-right: 50px;
+    margin-left: 100px; 
+}
+
+.footer a {
+text-decoration: none;
+color: black;
+}
+
+.base {
+    height:5px;
+    background-color:#011633;
+    margin-top: 1px;
+}
+
+
+
+
+
+

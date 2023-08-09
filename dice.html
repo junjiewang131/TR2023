@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados</title>
+    <link rel="stylesheet" href="./css/base.css"> 
+    <link rel="stylesheet" href="./css/dice.css">
+</head>
+<body>
+    <div class="header">
+       <div class="logo"> 
+        <img src="./uploads/logo.png" alt="">
+       </div>
+       <div class="nav">
+        <ul>
+            <li><a href="./home.html">INICIO</a></li>
+            <li><a href="./astrology.html">ASTROLOGíA</a></li>
+            <li><a href="./chart.html">CARTA</a></li>
+            <li><a href="./dice.html">DADOS</a></li>
+        </ul>
+       </div>
+
+       <div class="usericon">
+        <img src="./uploads/usericon.png" alt="">
+       </div>
+       
+       <div class="worldicon">
+        <img src="./uploads/worldicon.png" alt="">
+       </div>
+    </div>
+    <div class="portada"></div>
+    <div class="bd w">
+        <h4>-DADOS ASTROLÓGICOS-</h4>
+        <p>Los dados astrológicos son herramientas simbólicas utilizadas en astrología para generar combinaciones aleatorias de signos del zodíaco y planetas. Se utilizan principalmente para realizar lecturas rápidas y brindar orientación o respuestas a preguntas específicas relacionadas con la astrología.</p>
+        <p>El funcionamiento de los dados astrológicos es sencillo. Normalmente se utilizan tres dados con los 12 signos del zodiaco, 12 planetas y/o puntos y casas virtuales, impresos en cada una de sus caras.</p>
+        <p>Para realizar una lectura de dados astrológicos, el usuario debe recoger los dados y tirarlos. Después de la tirada, los dados muestran una combinación de un signo zodiacal, un planeta y una casa. Esta combinación se utiliza para proporcionar una indicación o respuesta a la pregunta planteada o para dar una orientación general sobre un tema determinado.</p>
+        <p>Cada elemento astrológico tiene significados asociados. Para interpretar la combinación obtenida con los dados, el usuario puede recurrir a la interpretación tradicional de los signos del zodiaco, los planetas y las casas, utilizándolos como punto de partida para el análisis.</p>
+    </div>
+    <div class="dice-bd w">
+        <h4>¡Intentalo!</h4>
+        <div class="input-container">
+            <input type="text" placeholder="Introduce tu pregunta">
+            <button id="rollButton">LANZAR</button>
+        </div>
+        <div class="elements">
+            <div class="sign"></div>
+            <div class="planet"></div>
+            <div class="house"></div>
+        </div>
+    </div>
+    
+    <script src="dice.js"></script>
+
+    <div class="footer">
+        <div class="links">
+            <dl>
+                <dt>INFORMACIÓN</dt>
+                <dd><a href="#">Q & A</a></dd>
+                <dd><a href="#">Feedback</a></dd>
+            </dl>
+            <dl>
+                <dt>SOBRE NOSOTROS</dt>
+                <dd><a href="#">Quienes somos</a></dd>
+                <dd><a href="#">Carrera</a></dd>
+            </dl>
+            <dl>
+                <dt>CONTACTO</dt>
+                <dd><a href="#">Email</a></dd>
+                <dd><a href="#">Instagram</a></dd>
+            </dl>
+            <dl>
+                <dt>TS & C'S</dt>
+                <dd><a href="#">Términos y condiciones</a></dd>
+                <dd><a href="#">Política de privacidad</a></dd>
+            </dl>
+        </div>
+    </div>
+    <div class="base"></div>
+</body>
+</html>

@@ -1,0 +1,201 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.s {
+    width: 900px;
+    margin: 0 auto;
+}
+.header{
+    height: 70px;
+    border-bottom: 2px solid white;
+}  
+
+.logo {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+.logo img{
+    width: 85px;
+    height: 85px;
+    padding-left: 40px;
+}
+
+
+.nav {
+    float: left;
+    margin-left: 60px;
+}
+
+.nav ul li {
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    display: block;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+}
+
+.nav ul li a:hover {
+    color: gray;
+}
+
+.usericon {
+    display: flex;
+    float: right;
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.worldicon {
+    display: flex;
+    float: right;
+    width: 45px;
+    height: 45px;
+    margin-top: 11px;
+    margin-right: 10px;
+}
+
+.portada {
+    height: 585px;
+    background-image: url(../uploads/dicebackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bd {
+    height: 700px;
+}
+
+.bd h4 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "AbhayaLibre";
+}
+
+.bd p {
+    padding-top: 40px;
+    text-align: center; 
+    font-size: 25px;
+}
+
+.dice-bd {
+    height: 500px;
+}
+
+.dice-bd h4 {
+    font-size: 25px;
+}
+
+.input-container {
+    display: inline-flex; /* 使用flex布局 */
+    align-items: center; /* 水平居中对齐元素 */
+    margin-left: 250px;
+    margin-top: 30px;
+  }
+  
+  .input-container input {
+    height: 66px;
+    width: 705px;
+    background-color: #2F5F8B;
+    border: 1px solid #2F5F8B;
+    border-radius: 83px;
+    padding-left: 20px;
+    color: white !important;
+    font-family: "Outfit";
+    font-size: 17px;
+  }
+
+  
+  .input-container button {
+    margin-left: -140px;
+    font-size: 15px;
+    font-family: "Outfit";
+    color: white;
+    height: 57px;
+    width: 132px;
+    background-color: #19487E;
+    border: 1px solid #19487E;
+    border-radius: 83px;
+  }
+
+.dice-bd .elements {
+    height: 350px;
+    width: 1150px;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+
+.dice-bd .elements .sign{
+    float: left;
+    height: 350px;
+    width: 350px;
+    background-color:#D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dice-bd .elements .planet {
+    float: left;
+    height: 350px;
+    width: 350px;
+    margin-left: 50px;
+    background-color:#D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dice-bd .elements .house {
+    float: right;  
+    height: 350px;
+    width: 350px;
+    background-color:#D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    height: 250px;
+    margin-top: 200px;
+    background-color: #D9D9D9;
+    text-align: center;
+}
+.footer dl {
+    display: inline-block;
+    font-size: 22px;
+    color:black;
+    padding-top: 70px;
+    padding-right: 50px;
+    margin-left: 100px; 
+}
+
+.footer a {
+text-decoration: none;
+color: black;
+}
+
+.base {
+    height:5px;
+    background-color:#011633;
+    margin-top: 1px;
+}
+
